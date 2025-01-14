@@ -80,7 +80,7 @@ public class TelaJogo extends javax.swing.JFrame {
         //PEGAR O VALOR ESCOLHIDO PELO USUÁRIO
         int num = Integer.parseInt(txtVal.getValue().toString());//Obtenha o valor da String e passe para txtVal converta para inteiro e jogue em num
         
-        String f1 = "<html>Acertou eu pensei no valor " + valor + "<html>";
+        String f1 = ("<html>Acertou eu pensei no valor " + valor + "<html>");
         String f2 = ("<html>Errou eu pensei no valor " + valor + "</html>");
         
         String res = (valor == num)?f1:f2;
