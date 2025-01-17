@@ -36,7 +36,7 @@ public class SwitchCaseBreak {
                 tipo = "Quadrupede";
                 break;
             case 6, 8:
-                tipo = "Araha";
+                tipo = "Aranha";
                 break;
             default:
                 tipo = "ET";
