@@ -29,7 +29,7 @@ public class Aula13Loiane {
         System.out.println(verdadeiro && falso);
         System.out.println(verdadeiro || falso);
         System.out.println(verdadeiro ^ falso);
-        System.out.println(!verdadeiro && falso);
+        System.out.println(!verdadeiro && falso);   
     }
     
 }
