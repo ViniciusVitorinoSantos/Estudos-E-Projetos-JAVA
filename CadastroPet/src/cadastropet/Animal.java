@@ -52,11 +52,11 @@ public class Animal {
     public String toString() {
         return String.format("""
         ============================
-        🖥️ ID: %d  
-        🔹 tipo: %s  
-        🔹 cor: %s  
-        🔹 sexo: %s  
-        🔊 som: %s   
+        🖥 ID:   %d  
+        🐘 tipo: %s  
+        🎨 cor:  %s  
+        👩‍ sexo: %s  
+        🔊 som:  %s   
         ============================
         """, id, tipo, cor, sexo, som);
     }
