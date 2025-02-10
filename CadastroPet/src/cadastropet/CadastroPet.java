@@ -59,8 +59,9 @@ public class CadastroPet {
         String tipo = entrada.nextLine();
         System.out.print("Digite a cor do animal :");
         String cor = entrada.nextLine();
-        System.out.print("Digite o sexo do animal :");
-        String sexo = entrada.nextLine();
+        System.out.print("Digite o sexo do animal (M/F):");
+        String entradaSexo = entrada.nextLine().trim().toUpperCase();//→ Remove espaços extras e coloca tudo em maiúsculas.
+        String sexo = entradaSexo.equals("M")? "Macho" : entradaSexo.equals("F") ? "Fêmea" : "indefinido";
         System.out.print("Digite o som do animal :");
         String som = entrada.nextLine();
 
@@ -78,5 +79,9 @@ public class CadastroPet {
         for (Animal a : fazenda) {
             System.out.println(a);
         }
+    }
+
+    private static void toUppercase() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
