@@ -27,7 +27,7 @@ public class CadastroPet {
             System.out.println(" 1 - Cadastrar novo animal ");
             System.out.println(" 2 - ver animais cadastrados ");
             System.out.println(" 3 - Sair");
-            System.out.println(" Escolha uma opção ");
+            System.out.print(" Escolha uma opção: ");
             
             //RECEBE A ENTRADA E JOGA NA VARIÁVEL OPt
             opt = entrada.nextInt();
@@ -66,7 +66,7 @@ public class CadastroPet {
 
         Animal novoAnimal = new Animal(idAtual++, tipo, cor, sexo, som);
         fazenda.add(novoAnimal);
-        System.out.println("✅ Veículo cadastrado com sucesso!");
+        System.out.println("✅ Animal  cadastrado com sucesso!");
     }
 
     private static void listarAnimais() {
@@ -74,7 +74,7 @@ public class CadastroPet {
             System.out.println("⚠ Nenhum animal cadastrado.");
             return;
         }
-        System.out.print("\n===== VEÍCULOS CADASTRADOS =====");
+        System.out.print("\n===== ANIMAIS CADASTRADOS =====");
         for (Animal a : fazenda) {
             System.out.println(a);
         }
