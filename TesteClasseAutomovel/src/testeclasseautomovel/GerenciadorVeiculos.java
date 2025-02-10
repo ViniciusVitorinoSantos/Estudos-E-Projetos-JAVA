@@ -31,7 +31,7 @@ public class GerenciadorVeiculos {
             //RECEBE A ENTRADA E JOGA NA VARIÁVEL OPCAO
             opcao = entrada.nextInt();
             entrada.nextLine();//LIMPA O BUFFER
-
+            /** DETERMINA A ESCOLHA DO USUÁRIO*/
             //DETERMINA A ESCOLHA DO USUÁRIO
             switch (opcao) {
 
