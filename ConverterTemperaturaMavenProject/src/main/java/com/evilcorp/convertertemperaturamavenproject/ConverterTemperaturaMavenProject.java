@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 package com.evilcorp.convertertemperaturamavenproject;
-
+//Importamos InputMismatchException e Scanner que são classes da biblioteca Java. Scanner é usado para ler entradas do usuário, enquanto InputMismatchException lida com entradas inválidas.
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
