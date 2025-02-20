@@ -18,7 +18,7 @@ public class TelaJogo extends javax.swing.JFrame {
      */
     public TelaJogo() {
         initComponents();
-        lblFrase.setText("<html>Vou pensar em um valor entre <strong>1</strong> e <strong>5</strong> tente adivinhar</html>");
+        lblFrase.setText("<html>Vou pensar em um valor entre <strong>1</strong> e <strong>5</strong> romario tente adivinhar</html>");
     }
 
     /**
