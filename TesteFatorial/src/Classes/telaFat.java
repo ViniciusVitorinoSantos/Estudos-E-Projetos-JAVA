@@ -57,6 +57,7 @@ public class telaFat extends javax.swing.JFrame {
         jLabel1.setText("!=");
 
         txtNum.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        txtNum.setModel(new javax.swing.SpinnerNumberModel(0, 0, 12, 1));
         txtNum.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 txtNumStateChanged(evt);
@@ -112,7 +113,7 @@ public class telaFat extends javax.swing.JFrame {
             c--;
         }
         
-        lblRes.setText(Double.toString(f));
+        lblRes.setText(Integer.toString(f));
     }//GEN-LAST:event_txtNumStateChanged
 
     /**
