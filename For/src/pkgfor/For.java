@@ -17,7 +17,7 @@ public class For {
         // TODO code application logic here
         System.out.println("Estou sem paciência o GitHub me tirou toda ela hoje!!!");
         
-        for(int i = 0; i < 10; ++i){
+        for(int i = 0; i < 10; i++){
             System.out.println("merda de atualização do GitHub " + i);
         }
         
