@@ -18,6 +18,7 @@ public class VetorAutoComplete {
     public static void main(String[] args) {
         // TODO code application logic here
         int v[] = new int[20];
+        //preenche todas as posições com o valor 0 
         Arrays.fill(v, 0);
         
         for (int valor : v){
